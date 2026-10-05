@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home banners · F5 Long Block · Madsen</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&family=Lato:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="banner.css">
+<style>
+body{margin:0;background:#F4F4F3;color:#141414;font-family:Lato,sans-serif}
+main{max-width:1440px;margin:0 auto;padding:40px 24px 80px}
+h1{font-family:Ubuntu,sans-serif;font-weight:400;font-size:32px;margin:0 0 8px}
+.lead{font-size:18px;line-height:1.5;color:#4A4B4F;max-width:820px;margin:0 0 40px}
+.item{margin:0 0 56px}
+.item>h2{font-family:Ubuntu,sans-serif;font-weight:400;font-size:22px;margin:0 0 14px}
+.wrap{width:100%;overflow:hidden}
+.mbwrap{transform-origin:0 0}
+.spec{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:16px}
+.spec div{background:#fff;border-top:4px solid #E32119;padding:16px 18px;font-size:16px;line-height:1.45}
+.spec b{display:block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#C41C15;margin-bottom:6px}
+.dl a{display:inline-block;margin:14px 12px 0 0;font-weight:700;font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:#141414;border:2px solid #141414;padding:10px 14px;text-decoration:none}
+.dl a:hover{background:#141414;color:#fff}
+</style></head><body><main>
+<h1>Home banners · F5 Long Block</h1>
+<p class="lead">Two versions for the slider on madsenpower.ca. Title, text and button are live text in the banner. Only the background is an image (1680×654, same size as the current banners). The button goes to the landing page.</p>
+
+<section class="item"><h2>1 · Original inside</h2>
+<div class="wrap" data-w="1440"><div class="mbwrap"><div class="mb"><img class="bg" src="bg-original-inside.webp" alt=""><div class="tx"><h2>Original inside.</h2><p>The Farmall is Case IH. The engine is FPT. Replace the block with the original F5 Long Block.</p><a href="https://madsenpower.ca/f5-long-block-fpt/">Request a quote →</a></div></div></div></div>
+<div class="spec"><div><b>Title</b>Original inside.</div><div><b>Text</b>The Farmall is Case IH. The engine is FPT. Replace the block with the original F5 Long Block.</div><div><b>Button</b>Request a quote →<br>madsenpower.ca/f5-long-block-fpt/</div></div>
+<div class="dl"><a href="bg-original-inside.webp" download>Background · webp</a><a href="bg-original-inside.png" download>Background · png</a></div></section>
+
+<section class="item"><h2>2 · From the field to the job site</h2>
+<div class="wrap" data-w="1440"><div class="mbwrap"><div class="mb"><img class="bg" src="bg-field-to-job-site.webp" alt=""><div class="tx"><h2>From the field to the job site.</h2><p>One engine, two lines: the F5 Long Block fits the tractors and backhoes you already run.</p><a href="https://madsenpower.ca/f5-long-block-fpt/">Check your model →</a></div></div></div></div>
+<div class="spec"><div><b>Title</b>From the field to the job site.</div><div><b>Text</b>One engine, two lines: the F5 Long Block fits the tractors and backhoes you already run.</div><div><b>Button</b>Check your model →<br>madsenpower.ca/f5-long-block-fpt/</div></div>
+<div class="dl"><a href="bg-field-to-job-site.webp" download>Background · webp</a><a href="bg-field-to-job-site-A.png" download>Background · png</a><a href="bg-field-to-job-site-B.webp" download>Alternate framing · webp</a></div></section>
+</main>
+<script>
+function fit(){document.querySelectorAll('.wrap').forEach(w=>{var s=Math.min(1,w.clientWidth/1440),m=w.firstElementChild;m.style.transform='scale('+s+')';w.style.height=(534*s)+'px'})}
+addEventListener('resize',fit);fit();
+</script></body></html>

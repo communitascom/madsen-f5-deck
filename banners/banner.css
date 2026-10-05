@@ -1,0 +1,6 @@
+.mb{position:relative;width:1440px;height:534px;overflow:hidden;background:#141414;font-family:Lato,sans-serif;color:#fff}
+.mb img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.mb .tx{position:absolute;left:120px;top:0;bottom:0;width:760px;display:flex;flex-direction:column;justify-content:center;gap:22px}
+.mb h2{font-family:Ubuntu,sans-serif;font-weight:400;font-size:56px;line-height:67px;letter-spacing:.2px;text-transform:uppercase;margin:0}
+.mb p{font-size:30px;line-height:41px;margin:0;max-width:700px}
+.mb a{align-self:flex-start;font-weight:600;font-size:18px;letter-spacing:1.2px;text-transform:uppercase;color:#fff;border:2px solid #fff;padding:18px;text-decoration:none}
